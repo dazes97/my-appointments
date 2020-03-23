@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da4be6fc-1c25-473d-aac3-b06a9adcfab8" name="Default Changelist" comment="" />
+    <list default="true" id="da4be6fc-1c25-473d-aac3-b06a9adcfab8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/DoctorController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/doctors/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/doctors/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/specialties/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/specialties/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/specialties/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/my-appointments.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my-appointments.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/includes/panel/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/panel/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +43,16 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\laragon\www\my-appointments\.idea" />
+      </set>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -124,9 +151,11 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/type" />
       <path value="$PROJECT_DIR$/vendor/filp/whoops" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/realrashid/sweet-alert" />
     </include_path>
   </component>
   <component name="ProjectId" id="1YtuMtvFWAvMIX6GxbuELCFbh22" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -135,8 +164,9 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/doctors" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -144,9 +174,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\my-appointments\resources\views\doctors" />
+      <recent name="C:\laragon\www\my-appointments\resources\views\specialties" />
       <recent name="C:\laragon\www\my-appointments\public" />
     </key>
   </component>
@@ -169,7 +202,14 @@
       <workItem from="1583774173050" duration="8160000" />
       <workItem from="1583848711372" duration="5908000" />
       <workItem from="1584134303895" duration="8555000" />
-      <workItem from="1584284520953" duration="10200000" />
+      <workItem from="1584284520953" duration="13468000" />
+      <workItem from="1584816578205" duration="6401000" />
+      <workItem from="1584831328441" duration="4555000" />
+      <workItem from="1584893961536" duration="532000" />
+      <workItem from="1584894675675" duration="697000" />
+      <workItem from="1584896759668" duration="68000" />
+      <workItem from="1584896849031" duration="8817000" />
+      <workItem from="1584917296519" duration="3929000" />
     </task>
     <servers />
   </component>
@@ -181,17 +221,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1583849705965" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1584294842948">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1584822009654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1584294842948" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1584284623653">
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1584822009654" />
+    <state x="199" y="20" width="998" height="708" key="SettingsEditor" timestamp="1584897142035">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584284623653" />
-    <state x="379" y="96" width="607" height="536" key="find.popup" timestamp="1583786002855">
+    <state x="199" y="20" width="998" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584897142035" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1584917313297">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="96" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583786002855" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584917313297" />
+    <state x="379" y="96" width="627" height="568" key="find.popup" timestamp="1584920366030">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="96" width="627" height="568" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1584920366030" />
   </component>
 </project>
